@@ -8,7 +8,6 @@ public class Main {
     public static void main(String[] args) throws IOException {
         List<Point>points=new ArrayList<>();
         try{
-            BufferedReader br=new BufferedReader(new FileReader("C:\\Users\\Lenovo\\Desktop\\file1.txt"));
             String fileRead=br.readLine();
             while(fileRead!=null){
                 String[]line=fileRead.split(",");
